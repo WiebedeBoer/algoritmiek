@@ -1,0 +1,56 @@
+Exercise #1: Analyzing a sorting algorithm
+
+Implement a (sorting) algorithm of choice in C++. Measure the execution time of the algorithm using different input sizes and perform a regression analysis.
+
+On blackboard you’ll find a document describing how to do a regression analysis in Excel, but you’re free to use other tools, such as R or SPSS. Do the results of your analysis match what Wikipedia says about the order of the algorithm?
+
+Submit your C++ code, (Excel) analysis and conclusion.
+
+
+
+Exercise #2: Bread-first search
+
+The file search.cpp implements a labeled graph and a depth-first search algorithm. 
+
+Watch the video on depth-first and breadth-first search. Extend the search.cpp with an implementation of breadth-first search.
+
+Hint: As the video explains, the non-recursive implementation of breadth-first search is similar to the non-recursive implementation of depth-first search, but differs from it in two ways:
+
+    it uses a queue (First In First Out) instead of a stack and
+    it checks whether a vertex has been discovered before enqueueing the vertex rather than delaying this check until the vertex is dequeued from the queue.
+
+
+
+Exercise #3: Puzzle solver (for grade)
+
+For this exercise you are to choose a puzzle and program a solver for it in C++.
+
+Study the 8-puzzle files (8puzzle.h, 8puzzle.cpp) and peg game files (peggame.h, peggame.cpp) and add your implementation of the breadth-first search algorithm that you created in the previous exercise.
+
+Pay attention to how the state of a board represents a vertex and how every move represents an edge. Test the program and see if it can solve the 8-puzzle and peg game.
+
+Choose a puzzle and think up a representation for itsstate and jumps (moves). Use the files for the 8-puzzle or peggame as a starting point and change themethods and functions (e.g. Graph::cbegin, doMove, operator>>, etc) so that it solves the chosen puzzle instead.
+
+For some puzzles breadth-first search alone won’t suffice and you will need to implement a more appropriate search strategy such as beam search or A*.
+
+
+
+Exercise #4: Tic-Tac-Toe using Monte Carlo
+
+Watch the video on how to implement an intelligent Tic-Tac-Toe opponent using Monte Carlo simulations.
+
+The files ttt.h, ttt.cpp and ttt_mc.cpp provide the basic framework for the game. You only need to implement the functions mcTrial, mcUpdateScores, getBestMove, and mcMove in ttt_mc.cpp as explained in the video.
+
+
+
+Exercise #5: Tic-Tac-Toe using tree search
+
+Watch the video on games, minimax and alpha-beta pruning.
+
+The files ttt.h, ttt.cpp and ttt_ab.cpp provide the basic framework for the game. You only need to implement the functions eval and alphaBeta. 
+
+Feel free to look at sample implementations of the minimax with alpha-beta pruning algorithm and use one of these. However, don’t change any other functions but alphaBeta and eval. You may add helper functions though.
+
+Hint: The evaluation function becomes trivial if you set the number of plies (search depth) to 9. If you choose to limit the search depth to say 5, how could you use Monte Carlo to evaluate a board position?
+
+
