@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "algoritme3", "algoritme3\algoritme3.vcxproj", "{888630D2-96F2-4198-9D50-5033C6F84BF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{888630D2-96F2-4198-9D50-5033C6F84BF2}.Debug|x64.ActiveCfg = Debug|x64
+		{888630D2-96F2-4198-9D50-5033C6F84BF2}.Debug|x64.Build.0 = Debug|x64
+		{888630D2-96F2-4198-9D50-5033C6F84BF2}.Debug|x86.ActiveCfg = Debug|Win32
+		{888630D2-96F2-4198-9D50-5033C6F84BF2}.Debug|x86.Build.0 = Debug|Win32
+		{888630D2-96F2-4198-9D50-5033C6F84BF2}.Release|x64.ActiveCfg = Release|x64
+		{888630D2-96F2-4198-9D50-5033C6F84BF2}.Release|x64.Build.0 = Release|x64
+		{888630D2-96F2-4198-9D50-5033C6F84BF2}.Release|x86.ActiveCfg = Release|Win32
+		{888630D2-96F2-4198-9D50-5033C6F84BF2}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F9FF192-F1BA-40B2-8CE5-682D13E12F7B}
+	EndGlobalSection
+EndGlobal
