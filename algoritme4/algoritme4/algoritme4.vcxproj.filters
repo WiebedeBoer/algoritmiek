@@ -26,5 +26,8 @@
     <ClCompile Include="algoritme4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ttt_mc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
